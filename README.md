@@ -15,6 +15,7 @@
 ******
 
 <p id="custom_view" />
+
 ## [自定义View](https://github.com/GcsSloop/AndroidNote/tree/master/CustomView/README.md)
 
 * 基础篇
@@ -36,8 +37,29 @@
     * [安卓自定义View进阶 - 事件分发机制原理](https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B12%5DDispatch-TouchEvent-Theory.md)
     * [安卓自定义View进阶 - 事件分发机制详解](https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B15%5DDispatch-TouchEvent-Source.md)
     * [安卓自定义View进阶 - MotionEvent详解](https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B16%5DMotionEvent.md)
-    * [安卓自定义View进阶 - 特殊形状控件事件处理方案](https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B17%5Dtouch-matrix-region.md)
+    * [安卓自定义View进阶 - 特殊形状控件事件处理方案](https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B17%5Dtouch-matrix-region.md)  
+    * [安卓自定义View进阶 - 多点触控详解](https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B18%5Dmulti-touch.md)
+    * [安卓自定义View进阶 - 手势检测(GestureDetector)](https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B19%5Dgesture-detector.md)
+    * [安卓自定义View进阶 - 缩放手势检测(ScaleGestureDetector)](http://www.gcssloop.com/customview/scalegesturedetector)
+    * [安卓自定义View进阶 - 画笔基础(Paint)](http://www.gcssloop.com/customview/paint-base)
 
+
+* [ViewSupport - 自定义View工具包](https://github.com/GcsSloop/ViewSupport)
+
+******
+
+## 雕虫晓技
+
+* [雕虫晓技(一) 组件化](http://www.gcssloop.com/gebug/componentr)
+* [雕虫晓技(二) 编码](http://www.gcssloop.com/gebug/coding)
+* [雕虫晓技(三) 通用圆角布局全解析](http://www.gcssloop.com/gebug/rclayout)
+* [雕虫晓技(四) 搭建私有Maven仓库(带容灾备份)](http://www.gcssloop.com/gebug/maven-private)
+* [雕虫晓技(五) 网格分页布局源码解析(上) (付费)](https://xiaozhuanlan.com/topic/5841730926)
+* [雕虫晓技(六) 网格分页布局源码解析(下) (付费)](https://xiaozhuanlan.com/topic/1456397082)
+* [雕虫晓技(七) 用旧Android手机做远程摄像头](http://www.gcssloop.com/gebug/internet-ip-webcam)
+* [雕虫晓技(八) Android与数据流的斗争](http://www.gcssloop.com/gebug/android-stream)
+* [雕虫晓技(九) Netty与私有协议框架](http://www.gcssloop.com/gebug/netty-private-protocol)
+* [雕虫晓技(十) Android超简单气泡效果](http://www.gcssloop.com/gebug/bubble-sample)
 
 ******
 
@@ -89,11 +111,19 @@
 
 ## 开源库
 
+* [arc-seekbar - 弧形SeekBar](https://github.com/GcsSloop/arc-seekbar)
+* [encrypt - 加密工具包](https://github.com/GcsSloop/encrypt)
+* [rclayout - 通用圆角布局](https://github.com/GcsSloop/rclayout)
 * [FontsManager - 快速替换字体](https://github.com/GcsSloop/FontsManager)
-* [ViewSupport - 自定义View工具包](https://github.com/GcsSloop/ViewSupport)
 * [Rocker － 自定义摇杆](https://github.com/GcsSloop/Rocker)
 * [LeafLoading － 进度条](https://github.com/GcsSloop/LeafLoading)
 * [Rotate3dAnimation - 3D旋转动画(修正版)](https://github.com/GcsSloop/Rotate3dAnimation)
+
+------
+
+## 源码解析
+
+- [AtomicFile 源码解析](https://github.com/GcsSloop/AndroidNote/blob/master/SourceAnalysis/AtomicFile.md)
 
 ## 传送门
 
@@ -129,6 +159,20 @@
 * 明确署名，即至少注明 `作者：GcsSloop` 字样以及文章的原始链接，且不得使用 `rel="nofollow"` 标记。
 * 商业用途请点击最下面图片联系本人。
 * 微信公众号转载一律不授权 `原创` 标志。
+
+## 捐赠
+
+#### 如果你觉得我的文章有帮助的话，捐赠一些晶石，鼓励我继续研究! 🐾
+
+|                                          |                                          |
+| ---------------------------------------- | ---------------------------------------- |
+| ![](http://www.gcssloop.com/assets/images/wechat.png) | ![](http://www.gcssloop.com/assets/images/alipay.png) |
+
+## 交流群
+
+QQ群：612310796  
+微信群：加我个人微信 GcsSloop，备注加群。
+![](https://ww3.sinaimg.cn/large/006tNc79gy1fl8bemmtmxj30p005k406.jpg)
 
 ### 作者微博: [@GcsSloop](http://weibo.com/GcsSloop)
 
